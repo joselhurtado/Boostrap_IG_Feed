@@ -1,14 +1,27 @@
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+    z-index: 1;
+	top: 0;
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .row {
     max-width: 1280px;    
     display: flex;
 }
 .object-fit_fill { 
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 360px;
     object-fit: cover;
     margin: 10px;
-    padding: 10px;
+    border-radius: 5px;
 }
+
 #pills-home-tab:hover {
     margin: 5px;
     background-color: #28a745;
@@ -28,12 +41,21 @@
 }
 
 .card {
-    max-width: 500px;
+    max-width: 450px;
     margin: 20px;
+}
+
+.card-img {
+    border-radius: 0;
+}
+
+#single-image {
+    border-radius: 5px;
 }
 
 .col {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
