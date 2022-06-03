@@ -9,6 +9,23 @@
     margin: 10px;
     padding: 10px;
 }
+#pills-home-tab:hover {
+    margin: 5px;
+    background-color: #28a745;
+}
+
+#pills-profile-tab:hover {
+    margin: 5px;
+    background-color: #28a745;
+}
+
+#pills-home-tab {
+    margin: 5px;
+}
+
+#pills-profile-tab {
+    margin: 5px;
+}
 
 .card {
     max-width: 500px;
