@@ -1,6 +1,4 @@
-body {
-    background-color: grey;
-}.row {
+.row {
     max-width: 1280px;    
     display: flex;
 }
@@ -10,4 +8,18 @@ body {
     object-fit: cover;
     margin: 10px;
     padding: 10px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-ellipsis-h {
+    padding-right: 10px;
 }
